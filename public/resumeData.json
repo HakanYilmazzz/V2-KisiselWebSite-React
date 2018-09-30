@@ -1,0 +1,142 @@
+{
+  "main": {
+    "name":"Hakan YILMAZ",
+    "occupation":"",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"BBC verilerine göre 5,541,919,379.uncu insan olarak 1993 yılında Balıkesirde doğdum. İlkokul ve Ortaokulu çeşitli illerde okuduktan sonra  Balıkesir Cumhuriyet Anadolu lisesinde lise eğitimimi tamamladım. Çanakkale Onsekiz Mart üniversitesinde Bilgisayar Mühendisliğini kazandım. Her ne kadar gelişen ve değişen dünyanın bütün yeniliklerini takip edemesem de dönem dönem ilgimi çeken gelişmeler olmakta son zamanların gözde konularından olan CriptoCoin piyasasını yakından takip etmekteyim.",
+    "contactmessage":" ",
+    "email": "hakanyilmazzz93@gmail.com",
+    "phone": "(+90) 507-512-39-49",
+    "address":{
+      "street":"Adnan Menderes Mah. 132. Sok. No:2/1 Balıkesir/Karesi",
+      "city":"Balıkesir",
+      "state":"Merkez",
+      "zip": "10100"
+    },
+    "website": "http://www.hakanylmz.com",
+    
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/h.ylmzzz",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/realistpenguen",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"https://plus.google.com/u/0/+HakanYILMAZikista",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"http://linkedin.com/in/hakan-yılmaz-2b2658b9",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/h.ylmzzz/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ikista",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":" ",
+    "education":[
+      {
+        "school":"Üniversite",
+        "degree":"Çanakkale OnSekiz Mart Üniversitesi",
+        "graduated":"2012 - ??",
+        "description":"Bilgisayar mühendisliği bölümünü bitirmeye çalışan bir ben"
+      },
+      {
+        "school":"Lise",
+        "degree":"Balıkesir Cumhuriyet Anadolu Lisesi",
+        "graduated":"2007 - 2011",
+        "description":"Bilgisayara olan ilgim bu yıllarda katlanarak arttı."
+      }
+    ],
+    "work":[
+      {
+        "company":"Balıkesir Büyükşehir Belediyesi",
+        "title":"Stajer ",
+        "years":"2018",
+        "description":"Bu staj benim React ve React Native ile tanışmamı sağladı."
+      },
+      {
+        "company":"Balıkesir Türk Telekom il Sube Müdürlügü",
+        "title":"Stajer",
+        "years":"2016",
+        "description":"Network cihazları ve network'un yapısı hakkında bilgi sahibi olmamı sağladı."
+      }
+    ],
+    "skills":[
+      {
+        "name":"JavaScript",
+        "level":"60%"
+      },
+      {
+        "name":"Python",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"75%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"React Native",
+        "level":"80%"
+      },
+      {
+        "name":"C",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"BBB Mobil",
+        "category":"Şehir içi halk otobüsleri bilgi sistemi",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://github.com/ikista/Balkes"
+      },
+      
+      {
+        "title":"Website",
+        "category":"React tabanlı geliştirdiğim websitem",
+        "image":"resume-website.jpg",
+        "url":"http://www.hakanylmz.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Korkarım ki bir gün teknoloji, insan etkileşiminin önüne geçecek ve aptal bir nesil ortaya çıkacak.",
+        "user":"Albert Einstein"
+      },
+      {
+        "text":"Bir programcının bir ayda yapabileceği bir işi 2 programcı 2 ayda yapar.",
+        "user":"Anonim yazılımcı"
+      }
+    ]
+  }
+}

@@ -82,31 +82,43 @@
     "skills":[
       {
         "name":"JavaScript",
-        "level":"60%"
+        "level":"60%",
+        "image":"js.png"
       },
       {
         "name":"Python",
-        "level":"55%"
+        "level":"55%",
+        "image":"python.png"
       },
       {
         "name":"ReactJs",
-        "level":"75%"
+        "level":"75%",
+        "image":"react.png"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"90%",
+        "image":"css.png"
       },
       {
         "name":"HTML5",
-        "level":"80%"
+        "level":"80%",
+        "image":"html5.png"
       },
       {
         "name":"React Native",
-        "level":"80%"
+        "level":"80%",
+        "image":"react-native.png"
       },
       {
         "name":"C",
-        "level":"70%"
+        "level":"70%",
+        "image":"c.png"
+      },
+      {
+        "name":"Java",
+        "level":"60%",
+        "image":"java.png"
       }
     ]
   },
@@ -124,6 +136,12 @@
         "category":"React tabanlı geliştirdiğim websitem",
         "image":"resume-website.jpg",
         "url":"http://www.hakanylmz.com"
+      },
+      {
+        "title":"Doviz",
+        "category":"React Native tabanlı geliştirdiğim Mobil uygulama",
+        "image":"fury-fighting-gear.JPG",
+        "url":"https://github.com/ikista/DovizUygulamasi-React-Native"
       }
     ]
   },

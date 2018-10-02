@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2018 Hakan Yılmaz</li>
+           <li>&copy; Copyright 2018 <a title="Tim Baker" href="http://www.hakanylmz.com/">Hakan Yılmaz</a></li>
               
            </ul>
 

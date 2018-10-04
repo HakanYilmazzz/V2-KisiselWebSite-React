@@ -451,10 +451,9 @@ img {
    max-width: 100%;
    height: auto;
 }
-.image.skillimage{
-    max-width: 24px;
-    max-height: 24px;
-}
+img.skill{
+    max-width: 65%;
+  }
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 

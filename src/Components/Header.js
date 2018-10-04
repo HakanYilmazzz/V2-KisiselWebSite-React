@@ -7,7 +7,6 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
-      var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -18,8 +17,8 @@ class Header extends Component {
 
       <nav id="nav-wrap">
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Menüyü göster</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Menüyü sakla</a>
+         <a className="mobile-btn" href="#nav-wrap" title="Menüyü göster">Menüyü göster</a>
+	      <a className="mobile-btn" href="#home" title="Menüyü sakla">Menüyü sakla</a>
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Anasayfa</a></li>
@@ -44,7 +43,7 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#contact"><i className="icon-down-circle"></i></a>
       </p>
 
    </header>

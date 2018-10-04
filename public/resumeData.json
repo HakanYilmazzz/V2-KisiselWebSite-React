@@ -9,7 +9,7 @@
     "email": "hakanyilmazzz93@gmail.com",
     "phone": "(+90) 507-512-39-49",
     "address":{
-      "street":"Adnan Menderes Mah. 132. Sok. No:2/1 Balıkesir/Karesi",
+      "street":"Adnan Menderes Mah. 132. Sok. No:2/1",
       "city":"Balıkesir",
       "state":"Merkez",
       "zip": "10100"
@@ -131,17 +131,18 @@
         "url":"https://github.com/ikista/Balkes"
       },
       
-      {
-        "title":"Website",
-        "category":"React tabanlı geliştirdiğim websitem",
-        "image":"resume-website.jpg",
-        "url":"http://www.hakanylmz.com"
-      },
+      
       {
         "title":"Doviz",
         "category":"React Native tabanlı geliştirdiğim Mobil uygulama",
         "image":"fury-fighting-gear.JPG",
         "url":"https://github.com/ikista/DovizUygulamasi-React-Native"
+      },
+      {
+        "title":"Website",
+        "category":"React tabanlı geliştirdiğim websitem",
+        "image":"resume-website.jpg",
+        "url":"http://www.hakanylmz.com"
       }
     ]
   },
@@ -152,7 +153,7 @@
         "user":"Albert Einstein"
       },
       {
-        "text":"Bir programcının bir ayda yapabileceği bir işi 2 programcı 2 ayda yapar.",
+        "text":"Bir programcının bir ayda yapabileceği bir işi, 2 programcı 2 ayda yapar.",
         "user":"Anonim yazılımcı"
       }
     ]

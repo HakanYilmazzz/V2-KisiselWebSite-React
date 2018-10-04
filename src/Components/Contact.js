@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form  method="post" id="contactForm" name="contactForm" >
 					<fieldset>
 
                   <div>
@@ -56,13 +56,13 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage"> Mesaj: <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="40" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
-                  <div>
+                  <div style={{flexDirection:"row"}}>
                      <button className="submit">Gönder</button>
                      <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
+                        <img alt="" src="images/accept.png" width='50px' height='50px' />
                      </span>
                   </div>
 					</fieldset>
@@ -70,7 +70,7 @@ class Contact extends Component {
 
            <div id="message-warning"> Mesaj gönderilemiyor</div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Mesajınız iletildi, Teşekkürler<br />
+                  <i className="fa fa-check"></i>Mesajınız iletildi, Tesekkürler<br />
 				   </div>
            </div>
 
@@ -78,7 +78,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>İletişim</h4>
+					   <h4>İletisim</h4>
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />

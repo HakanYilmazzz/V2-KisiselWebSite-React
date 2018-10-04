@@ -33,11 +33,13 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center ;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background-attachment: fixed;
+   
 }
 
 /* vertically center banner section */
@@ -62,7 +64,7 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 1px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -179,7 +181,25 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
+ul#nav li a:before { 
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #11ABB0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;}
+  ul#nav li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
 
 
 /* ------------------------------------------------------------------ */
@@ -207,9 +227,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   border-radius: 25%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -300,7 +320,7 @@ ul#nav li.current a { color: #F06000; }
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
-  	border-radius: 3px;
+  	border-radius: 5px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -318,20 +338,20 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #4f4c4c;
+  	background: #313131;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 5px 0 0 5px;
 }
-/*
-.JavaScript {
-  	-moz-animation: JavaScript 2s ease;
-  	-webkit-animation: JavaScript 2s ease;
+
+.javaScript {
+  	-moz-animation: javaScript 2s ease;
+  	-webkit-animation: javaScript 2s ease;
 }
-.Python {
-  	-moz-animation: Python 2s ease;
-  	-webkit-animation: Python 2s ease;
+.python {
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 .reactjs {
   	-moz-animation: reactjs 2s ease;
@@ -349,16 +369,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: vuejs 2s ease;
   	-webkit-animation: vuejs 2s ease;
 }
-.C {
-  	-moz-animation: C 2s ease;
-  	-webkit-animation: C 2s ease;
+.c {
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
 }
 
-@-moz-keyframes JavaScript {
+@-moz-keyframes javaScript {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes Python {
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
@@ -378,22 +398,22 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes C {
+@-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
 
-@-webkit-keyframes JavaScript {
+@-webkit-keyframes javaScript {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes Python {
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 } 
 @-webkit-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 } 
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -407,11 +427,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes C {
+@-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }  
-*/
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -436,6 +456,7 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -940,7 +961,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #11ABB0; }
 
 /* copyright */
 footer .copyright {
